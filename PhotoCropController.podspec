@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   
   # s.resource_bundles = {
   #   'PhotoCropController' => ['PhotoCropController/Assets/*.png']
-  # }s
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'PhotosUI'
