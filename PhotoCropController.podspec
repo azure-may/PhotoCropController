@@ -32,6 +32,12 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*'
   
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+  "ios": "12.1"
+  }
+  
   # s.resource_bundles = {
   #   'PhotoCropController' => ['PhotoCropController/Assets/*.png']
   # }
