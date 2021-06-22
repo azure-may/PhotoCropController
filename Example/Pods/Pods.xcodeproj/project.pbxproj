@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9E39010DD45C9D05E322D5B31C9FAF /* Pods-PhotoCropController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C46E3C056FC1E74FF40A7B05B5D83E /* Pods-PhotoCropController_Example-dummy.m */; };
+		39789BFBA6C56BC7B995C38AB60E7F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4F99558693E70A58E9B6F20F9B3A552B /* Pods-PhotoCropController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EDE4B4A5F5EC615BA1723AFF6669B4 /* Pods-PhotoCropController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FE41BE26C894C14D57ECF7D40A49272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6670AFD9D454B911FF04390C53B165D0 /* Pods-PhotoCropController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CE4D4E46B5FEBFFE99CF6AEDC9B580 /* Pods-PhotoCropController_Tests-dummy.m */; };
+		74A590234B221E64413EDB897624FF1B /* PhotoCropController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D165E297B2E613C3CFCD0E0E89CABD /* PhotoCropController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE7C5F9EC1FC4383DC870C131E687BF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42936E223A65E342B4E7343FFB2BD49 /* ReplaceMe.swift */; };
+		DA04F849C183DFC6C3E2E14025160CBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DC47825131A7FE96B5DF650D4180B677 /* Pods-PhotoCropController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DA0068E092B8469647D45ECC34E6DF /* Pods-PhotoCropController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0CBAE1A57D047E4C5056887D3AA6164 /* PhotoCropController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A93C3CBFC0008D6A579F104E1B36B5D /* PhotoCropController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B0C518859F9A6F841060A83DAD4DEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D5DF1BB5DB1573AD118BB753C3365C;
+			remoteInfo = PhotoCropController;
+		};
+		D8F529C599A0A74925A87F6BBC0340A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D520948AD934A4B7050E5BD39FAB1DA;
+			remoteInfo = "Pods-PhotoCropController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096446F998D14F705D5A2FF8563EB0CA /* Pods-PhotoCropController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoCropController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0F4ED1592C490C10D46016649591E3D2 /* Pods-PhotoCropController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoCropController_Tests-Info.plist"; sourceTree = "<group>"; };
+		11D165E297B2E613C3CFCD0E0E89CABD /* PhotoCropController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhotoCropController-umbrella.h"; sourceTree = "<group>"; };
+		142F6166EC86424B2B7A7A8894AB7044 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2CBD1600E4087D4C38F6952120C78361 /* Pods-PhotoCropController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoCropController_Example-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E864669BAA1DCCD774DAB41212A02FD /* Pods-PhotoCropController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoCropController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		574784F4EB84E4FD3B47A6EB94EED086 /* Pods-PhotoCropController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoCropController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		576F3724CC4ECA876F813D4EBFB4C860 /* Pods-PhotoCropController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoCropController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A93C3CBFC0008D6A579F104E1B36B5D /* PhotoCropController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhotoCropController-dummy.m"; sourceTree = "<group>"; };
+		63498BF13E7F3D3EDAF38B9B4C1B3522 /* Pods-PhotoCropController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoCropController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		65A3F0D3D614A35FC48C9924A8D0C6BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		72EDE4B4A5F5EC615BA1723AFF6669B4 /* Pods-PhotoCropController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoCropController_Example-umbrella.h"; sourceTree = "<group>"; };
+		75CE4D4E46B5FEBFFE99CF6AEDC9B580 /* Pods-PhotoCropController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoCropController_Tests-dummy.m"; sourceTree = "<group>"; };
+		78586EF0881F25483C71F8875892589D /* PhotoCropController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhotoCropController-prefix.pch"; sourceTree = "<group>"; };
+		7F024EB40B27907C95AD54D9325A45CC /* PhotoCropController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PhotoCropController-Info.plist"; sourceTree = "<group>"; };
+		81E36B670C3C7B70894AF997510D5F43 /* PhotoCropController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoCropController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C46E3C056FC1E74FF40A7B05B5D83E /* Pods-PhotoCropController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoCropController_Example-dummy.m"; sourceTree = "<group>"; };
+		95BA3428EBC28CBD73CFE9F566FD1D62 /* PhotoCropController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PhotoCropController.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB2AEC09D79DCB932C9D2A9C5027AFE0 /* PhotoCropController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PhotoCropController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B611F3E5D6BBA5D536E698F9306A5BD7 /* Pods-PhotoCropController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoCropController_Example.modulemap"; sourceTree = "<group>"; };
+		BAE3D071E785DDCF4E25B1C10398153E /* Pods_PhotoCropController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoCropController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB463DE1F17B1EEE107878832A5F5CAF /* Pods_PhotoCropController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoCropController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE401DDF0D1141B8A744CE3896C11031 /* Pods-PhotoCropController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoCropController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C65EEDDEBF494BB42961B489F616B473 /* Pods-PhotoCropController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoCropController_Tests.modulemap"; sourceTree = "<group>"; };
+		D2D92F7C985472FECC850B580BEE3562 /* PhotoCropController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhotoCropController.release.xcconfig; sourceTree = "<group>"; };
+		D47012FAB96FAFAB4EA0CEDB8E53FC61 /* Pods-PhotoCropController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoCropController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C1A35ABEB41204A4510B79EABAE6D8 /* PhotoCropController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhotoCropController.debug.xcconfig; sourceTree = "<group>"; };
+		E42936E223A65E342B4E7343FFB2BD49 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PhotoCropController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F3DA0068E092B8469647D45ECC34E6DF /* Pods-PhotoCropController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoCropController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F9C4F5BA76EF8E470DB4AE9CCBEBD10E /* Pods-PhotoCropController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoCropController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB9AE31900CAE268D47FCDC37D84F4A1 /* Pods-PhotoCropController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoCropController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E9948596FF2CCBDD37FDF69A08B4F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA04F849C183DFC6C3E2E14025160CBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE52D44EA2CB3E17AE215134A423E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39789BFBA6C56BC7B995C38AB60E7F4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594EB972FB4F14FFF6EC6C61B384890A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE41BE26C894C14D57ECF7D40A49272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363E03F86CB3D90496E535BA2343A3A1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71F61362005E68AFBC8E94BB70BFA5EE /* PhotoCropController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4BE023B22B0BCC9CA67CE3811055AEDD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE71F99FDBBE00913A6DB667686E5E17 /* Pods-PhotoCropController_Example */,
+				CD57D83BFFA5298D18E0FC93209B0F61 /* Pods-PhotoCropController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		68A78C3AB6F99EA4521B080D11E70E2B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				65A3F0D3D614A35FC48C9924A8D0C6BA /* LICENSE */,
+				AB2AEC09D79DCB932C9D2A9C5027AFE0 /* PhotoCropController.podspec */,
+				142F6166EC86424B2B7A7A8894AB7044 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		71F61362005E68AFBC8E94BB70BFA5EE /* PhotoCropController */ = {
+			isa = PBXGroup;
+			children = (
+				E42936E223A65E342B4E7343FFB2BD49 /* ReplaceMe.swift */,
+				68A78C3AB6F99EA4521B080D11E70E2B /* Pod */,
+				DFEF23C188A3214EF0BD95F7FE05352F /* Support Files */,
+			);
+			name = PhotoCropController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B94F9EAA36F79CB66A14973BED04468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E36B670C3C7B70894AF997510D5F43 /* PhotoCropController.framework */,
+				BB463DE1F17B1EEE107878832A5F5CAF /* Pods_PhotoCropController_Example.framework */,
+				BAE3D071E785DDCF4E25B1C10398153E /* Pods_PhotoCropController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD57D83BFFA5298D18E0FC93209B0F61 /* Pods-PhotoCropController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C65EEDDEBF494BB42961B489F616B473 /* Pods-PhotoCropController_Tests.modulemap */,
+				576F3724CC4ECA876F813D4EBFB4C860 /* Pods-PhotoCropController_Tests-acknowledgements.markdown */,
+				574784F4EB84E4FD3B47A6EB94EED086 /* Pods-PhotoCropController_Tests-acknowledgements.plist */,
+				75CE4D4E46B5FEBFFE99CF6AEDC9B580 /* Pods-PhotoCropController_Tests-dummy.m */,
+				0F4ED1592C490C10D46016649591E3D2 /* Pods-PhotoCropController_Tests-Info.plist */,
+				F3DA0068E092B8469647D45ECC34E6DF /* Pods-PhotoCropController_Tests-umbrella.h */,
+				63498BF13E7F3D3EDAF38B9B4C1B3522 /* Pods-PhotoCropController_Tests.debug.xcconfig */,
+				FB9AE31900CAE268D47FCDC37D84F4A1 /* Pods-PhotoCropController_Tests.release.xcconfig */,
+			);
+			name = "Pods-PhotoCropController_Tests";
+			path = "Target Support Files/Pods-PhotoCropController_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				363E03F86CB3D90496E535BA2343A3A1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9B94F9EAA36F79CB66A14973BED04468 /* Products */,
+				4BE023B22B0BCC9CA67CE3811055AEDD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE71F99FDBBE00913A6DB667686E5E17 /* Pods-PhotoCropController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B611F3E5D6BBA5D536E698F9306A5BD7 /* Pods-PhotoCropController_Example.modulemap */,
+				F9C4F5BA76EF8E470DB4AE9CCBEBD10E /* Pods-PhotoCropController_Example-acknowledgements.markdown */,
+				3E864669BAA1DCCD774DAB41212A02FD /* Pods-PhotoCropController_Example-acknowledgements.plist */,
+				92C46E3C056FC1E74FF40A7B05B5D83E /* Pods-PhotoCropController_Example-dummy.m */,
+				096446F998D14F705D5A2FF8563EB0CA /* Pods-PhotoCropController_Example-frameworks.sh */,
+				2CBD1600E4087D4C38F6952120C78361 /* Pods-PhotoCropController_Example-Info.plist */,
+				72EDE4B4A5F5EC615BA1723AFF6669B4 /* Pods-PhotoCropController_Example-umbrella.h */,
+				D47012FAB96FAFAB4EA0CEDB8E53FC61 /* Pods-PhotoCropController_Example.debug.xcconfig */,
+				BE401DDF0D1141B8A744CE3896C11031 /* Pods-PhotoCropController_Example.release.xcconfig */,
+			);
+			name = "Pods-PhotoCropController_Example";
+			path = "Target Support Files/Pods-PhotoCropController_Example";
+			sourceTree = "<group>";
+		};
+		DFEF23C188A3214EF0BD95F7FE05352F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BA3428EBC28CBD73CFE9F566FD1D62 /* PhotoCropController.modulemap */,
+				5A93C3CBFC0008D6A579F104E1B36B5D /* PhotoCropController-dummy.m */,
+				7F024EB40B27907C95AD54D9325A45CC /* PhotoCropController-Info.plist */,
+				78586EF0881F25483C71F8875892589D /* PhotoCropController-prefix.pch */,
+				11D165E297B2E613C3CFCD0E0E89CABD /* PhotoCropController-umbrella.h */,
+				D6C1A35ABEB41204A4510B79EABAE6D8 /* PhotoCropController.debug.xcconfig */,
+				D2D92F7C985472FECC850B580BEE3562 /* PhotoCropController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PhotoCropController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B4F8B9830C80EA9E63099446ED57DDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A590234B221E64413EDB897624FF1B /* PhotoCropController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E79815B6E4E9D3A0512F1543CF2EA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F99558693E70A58E9B6F20F9B3A552B /* Pods-PhotoCropController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C46EAD1F1F309F51785FE77CD49A5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC47825131A7FE96B5DF650D4180B677 /* Pods-PhotoCropController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47D5DF1BB5DB1573AD118BB753C3365C /* PhotoCropController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7065D365F103F9FF7E048EB53DCE2C6 /* Build configuration list for PBXNativeTarget "PhotoCropController" */;
+			buildPhases = (
+				3B4F8B9830C80EA9E63099446ED57DDC /* Headers */,
+				75356862CAA8F3581AEE10067BA765FD /* Sources */,
+				4EE52D44EA2CB3E17AE215134A423E62 /* Frameworks */,
+				35EB410AC9D8B32011CAA4FF068D7E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoCropController;
+			productName = PhotoCropController;
+			productReference = 81E36B670C3C7B70894AF997510D5F43 /* PhotoCropController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D520948AD934A4B7050E5BD39FAB1DA /* Pods-PhotoCropController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02249D8B013288784C74BF47C9DE3C62 /* Build configuration list for PBXNativeTarget "Pods-PhotoCropController_Example" */;
+			buildPhases = (
+				42E79815B6E4E9D3A0512F1543CF2EA2 /* Headers */,
+				41FC3597B7EE6A5FD21DB3A504E92661 /* Sources */,
+				594EB972FB4F14FFF6EC6C61B384890A /* Frameworks */,
+				B41D88EC623D5931EAE99938019E1B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E943A08AE3C6114296544BA0AE69E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoCropController_Example";
+			productName = "Pods-PhotoCropController_Example";
+			productReference = BB463DE1F17B1EEE107878832A5F5CAF /* Pods_PhotoCropController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E74D430D1440BAC7CD73CF8FF06051EC /* Pods-PhotoCropController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DB62A44039B9EB4A7D534C5BE47C78 /* Build configuration list for PBXNativeTarget "Pods-PhotoCropController_Tests" */;
+			buildPhases = (
+				55C46EAD1F1F309F51785FE77CD49A5D /* Headers */,
+				97CA6FAE56B7BAD1BBB204A8D06B13D8 /* Sources */,
+				0E9948596FF2CCBDD37FDF69A08B4F49 /* Frameworks */,
+				219A05007EE8A6BB8FA5303B617852AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6BA9121F58A27CA62096C2F776870B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoCropController_Tests";
+			productName = "Pods-PhotoCropController_Tests";
+			productReference = BAE3D071E785DDCF4E25B1C10398153E /* Pods_PhotoCropController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					47D5DF1BB5DB1573AD118BB753C3365C = {
+						DevelopmentTeam = 8ZZMQV8UBT;
+						LastSwiftMigration = 1250;
+					};
+					5D520948AD934A4B7050E5BD39FAB1DA = {
+						DevelopmentTeam = 8ZZMQV8UBT;
+					};
+					E74D430D1440BAC7CD73CF8FF06051EC = {
+						DevelopmentTeam = 8ZZMQV8UBT;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9B94F9EAA36F79CB66A14973BED04468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D5DF1BB5DB1573AD118BB753C3365C /* PhotoCropController */,
+				5D520948AD934A4B7050E5BD39FAB1DA /* Pods-PhotoCropController_Example */,
+				E74D430D1440BAC7CD73CF8FF06051EC /* Pods-PhotoCropController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219A05007EE8A6BB8FA5303B617852AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35EB410AC9D8B32011CAA4FF068D7E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41D88EC623D5931EAE99938019E1B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41FC3597B7EE6A5FD21DB3A504E92661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9E39010DD45C9D05E322D5B31C9FAF /* Pods-PhotoCropController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75356862CAA8F3581AEE10067BA765FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CBAE1A57D047E4C5056887D3AA6164 /* PhotoCropController-dummy.m in Sources */,
+				BDE7C5F9EC1FC4383DC870C131E687BF /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CA6FAE56B7BAD1BBB204A8D06B13D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6670AFD9D454B911FF04390C53B165D0 /* Pods-PhotoCropController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E943A08AE3C6114296544BA0AE69E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhotoCropController;
+			target = 47D5DF1BB5DB1573AD118BB753C3365C /* PhotoCropController */;
+			targetProxy = 6B0C518859F9A6F841060A83DAD4DEBA /* PBXContainerItemProxy */;
+		};
+		A6BA9121F58A27CA62096C2F776870B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PhotoCropController_Example";
+			target = 5D520948AD934A4B7050E5BD39FAB1DA /* Pods-PhotoCropController_Example */;
+			targetProxy = D8F529C599A0A74925A87F6BBC0340A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27234FCF355E17E95240023FCE1318BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9AE31900CAE268D47FCDC37D84F4A1 /* Pods-PhotoCropController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8ZZMQV8UBT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoCropController_Tests/Pods-PhotoCropController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoCropController_Tests/Pods-PhotoCropController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A34C9D3FC2FF384FAADB4C2B1373B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE401DDF0D1141B8A744CE3896C11031 /* Pods-PhotoCropController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8ZZMQV8UBT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoCropController_Example/Pods-PhotoCropController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoCropController_Example/Pods-PhotoCropController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2C1A129619746C6F046B611434480AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47012FAB96FAFAB4EA0CEDB8E53FC61 /* Pods-PhotoCropController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8ZZMQV8UBT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoCropController_Example/Pods-PhotoCropController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoCropController_Example/Pods-PhotoCropController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C457BA9E8EB88B95DE76488B50000F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D92F7C985472FECC850B580BEE3562 /* PhotoCropController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8ZZMQV8UBT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhotoCropController/PhotoCropController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhotoCropController/PhotoCropController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhotoCropController/PhotoCropController.modulemap";
+				PRODUCT_MODULE_NAME = PhotoCropController;
+				PRODUCT_NAME = PhotoCropController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F126DB54DEA65E461935D79BDCA9D15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63498BF13E7F3D3EDAF38B9B4C1B3522 /* Pods-PhotoCropController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8ZZMQV8UBT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoCropController_Tests/Pods-PhotoCropController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoCropController_Tests/Pods-PhotoCropController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC2A2DDFAB0CCED2B6AF06CC9F7042C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C1A35ABEB41204A4510B79EABAE6D8 /* PhotoCropController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8ZZMQV8UBT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhotoCropController/PhotoCropController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhotoCropController/PhotoCropController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhotoCropController/PhotoCropController.modulemap";
+				PRODUCT_MODULE_NAME = PhotoCropController;
+				PRODUCT_NAME = PhotoCropController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02249D8B013288784C74BF47C9DE3C62 /* Build configuration list for PBXNativeTarget "Pods-PhotoCropController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C1A129619746C6F046B611434480AE /* Debug */,
+				8A34C9D3FC2FF384FAADB4C2B1373B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DB62A44039B9EB4A7D534C5BE47C78 /* Build configuration list for PBXNativeTarget "Pods-PhotoCropController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F126DB54DEA65E461935D79BDCA9D15C /* Debug */,
+				27234FCF355E17E95240023FCE1318BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7065D365F103F9FF7E048EB53DCE2C6 /* Build configuration list for PBXNativeTarget "PhotoCropController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2A2DDFAB0CCED2B6AF06CC9F7042C0 /* Debug */,
+				C457BA9E8EB88B95DE76488B50000F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

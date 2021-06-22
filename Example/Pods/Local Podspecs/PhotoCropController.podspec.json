@@ -1,0 +1,22 @@
+{
+  "name": "PhotoCropController",
+  "version": "0.1.0",
+  "summary": "A short description of PhotoCropController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/azure-may/PhotoCropController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "azure-may": "azure.may.burmeister@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/azure-may/PhotoCropController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PhotoCropController/Classes/**/*"
+}

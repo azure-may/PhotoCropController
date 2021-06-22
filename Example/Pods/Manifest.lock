@@ -1,0 +1,16 @@
+PODS:
+  - PhotoCropController (0.1.0)
+
+DEPENDENCIES:
+  - PhotoCropController (from `../`)
+
+EXTERNAL SOURCES:
+  PhotoCropController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PhotoCropController: a84a34c7642ba57b16b372b5382f065baf657884
+
+PODFILE CHECKSUM: 04cf7e7a829c7e62f60a4aad0bab5ddebb5c4654
+
+COCOAPODS: 1.9.1

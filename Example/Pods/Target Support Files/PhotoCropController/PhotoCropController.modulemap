@@ -1,0 +1,6 @@
+framework module PhotoCropController {
+  umbrella header "PhotoCropController-umbrella.h"
+
+  export *
+  module * { export * }
+}
