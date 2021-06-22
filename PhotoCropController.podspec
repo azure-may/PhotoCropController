@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.1'
 
-  s.source_files = 'PhotoCropController/Source/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'PhotoCropController' => ['PhotoCropController/Assets/*.png']

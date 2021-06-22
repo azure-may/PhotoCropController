@@ -129,7 +129,7 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6330B8102682726B00985276 /* Source */ = {
+		6330B82026827D5B00985276 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				6330B8112682729200985276 /* CropView.swift */,
@@ -140,7 +140,7 @@
 				6330B8162682729200985276 /* PopTransition.swift */,
 				6330B8172682729200985276 /* PushTransition.swift */,
 			);
-			path = Source;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		68A78C3AB6F99EA4521B080D11E70E2B /* Pod */ = {
@@ -156,7 +156,7 @@
 		71F61362005E68AFBC8E94BB70BFA5EE /* PhotoCropController */ = {
 			isa = PBXGroup;
 			children = (
-				6330B8102682726B00985276 /* Source */,
+				6330B82026827D5B00985276 /* Classes */,
 				68A78C3AB6F99EA4521B080D11E70E2B /* Pod */,
 				DFEF23C188A3214EF0BD95F7FE05352F /* Support Files */,
 			);
