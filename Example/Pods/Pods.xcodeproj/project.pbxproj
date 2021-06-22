@@ -11,9 +11,15 @@
 		39789BFBA6C56BC7B995C38AB60E7F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4F99558693E70A58E9B6F20F9B3A552B /* Pods-PhotoCropController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EDE4B4A5F5EC615BA1723AFF6669B4 /* Pods-PhotoCropController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FE41BE26C894C14D57ECF7D40A49272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6330B8182682729200985276 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330B8112682729200985276 /* CropView.swift */; };
+		6330B8192682729200985276 /* ModalPushPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330B8122682729200985276 /* ModalPushPresentationController.swift */; };
+		6330B81A2682729200985276 /* DismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330B8132682729200985276 /* DismissTransition.swift */; };
+		6330B81B2682729200985276 /* PhotoCropController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330B8142682729200985276 /* PhotoCropController.swift */; };
+		6330B81C2682729200985276 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330B8152682729200985276 /* PhotoManager.swift */; };
+		6330B81D2682729200985276 /* PopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330B8162682729200985276 /* PopTransition.swift */; };
+		6330B81E2682729200985276 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330B8172682729200985276 /* PushTransition.swift */; };
 		6670AFD9D454B911FF04390C53B165D0 /* Pods-PhotoCropController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CE4D4E46B5FEBFFE99CF6AEDC9B580 /* Pods-PhotoCropController_Tests-dummy.m */; };
 		74A590234B221E64413EDB897624FF1B /* PhotoCropController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D165E297B2E613C3CFCD0E0E89CABD /* PhotoCropController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDE7C5F9EC1FC4383DC870C131E687BF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42936E223A65E342B4E7343FFB2BD49 /* ReplaceMe.swift */; };
 		DA04F849C183DFC6C3E2E14025160CBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DC47825131A7FE96B5DF650D4180B677 /* Pods-PhotoCropController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DA0068E092B8469647D45ECC34E6DF /* Pods-PhotoCropController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0CBAE1A57D047E4C5056887D3AA6164 /* PhotoCropController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A93C3CBFC0008D6A579F104E1B36B5D /* PhotoCropController-dummy.m */; };
@@ -47,6 +53,13 @@
 		574784F4EB84E4FD3B47A6EB94EED086 /* Pods-PhotoCropController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoCropController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		576F3724CC4ECA876F813D4EBFB4C860 /* Pods-PhotoCropController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoCropController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A93C3CBFC0008D6A579F104E1B36B5D /* PhotoCropController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhotoCropController-dummy.m"; sourceTree = "<group>"; };
+		6330B8112682729200985276 /* CropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
+		6330B8122682729200985276 /* ModalPushPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalPushPresentationController.swift; sourceTree = "<group>"; };
+		6330B8132682729200985276 /* DismissTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissTransition.swift; sourceTree = "<group>"; };
+		6330B8142682729200985276 /* PhotoCropController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCropController.swift; sourceTree = "<group>"; };
+		6330B8152682729200985276 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		6330B8162682729200985276 /* PopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTransition.swift; sourceTree = "<group>"; };
+		6330B8172682729200985276 /* PushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
 		63498BF13E7F3D3EDAF38B9B4C1B3522 /* Pods-PhotoCropController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoCropController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		65A3F0D3D614A35FC48C9924A8D0C6BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		72EDE4B4A5F5EC615BA1723AFF6669B4 /* Pods-PhotoCropController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoCropController_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -66,7 +79,6 @@
 		D2D92F7C985472FECC850B580BEE3562 /* PhotoCropController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhotoCropController.release.xcconfig; sourceTree = "<group>"; };
 		D47012FAB96FAFAB4EA0CEDB8E53FC61 /* Pods-PhotoCropController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoCropController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6C1A35ABEB41204A4510B79EABAE6D8 /* PhotoCropController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhotoCropController.debug.xcconfig; sourceTree = "<group>"; };
-		E42936E223A65E342B4E7343FFB2BD49 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PhotoCropController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F3DA0068E092B8469647D45ECC34E6DF /* Pods-PhotoCropController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoCropController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F9C4F5BA76EF8E470DB4AE9CCBEBD10E /* Pods-PhotoCropController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoCropController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB9AE31900CAE268D47FCDC37D84F4A1 /* Pods-PhotoCropController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoCropController_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +129,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6330B8102682726B00985276 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6330B8112682729200985276 /* CropView.swift */,
+				6330B8132682729200985276 /* DismissTransition.swift */,
+				6330B8122682729200985276 /* ModalPushPresentationController.swift */,
+				6330B8142682729200985276 /* PhotoCropController.swift */,
+				6330B8152682729200985276 /* PhotoManager.swift */,
+				6330B8162682729200985276 /* PopTransition.swift */,
+				6330B8172682729200985276 /* PushTransition.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		68A78C3AB6F99EA4521B080D11E70E2B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +156,7 @@
 		71F61362005E68AFBC8E94BB70BFA5EE /* PhotoCropController */ = {
 			isa = PBXGroup;
 			children = (
-				E42936E223A65E342B4E7343FFB2BD49 /* ReplaceMe.swift */,
+				6330B8102682726B00985276 /* Source */,
 				68A78C3AB6F99EA4521B080D11E70E2B /* Pod */,
 				DFEF23C188A3214EF0BD95F7FE05352F /* Support Files */,
 			);
@@ -387,8 +413,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6330B81C2682729200985276 /* PhotoManager.swift in Sources */,
+				6330B81D2682729200985276 /* PopTransition.swift in Sources */,
+				6330B81E2682729200985276 /* PushTransition.swift in Sources */,
+				6330B8182682729200985276 /* CropView.swift in Sources */,
+				6330B81A2682729200985276 /* DismissTransition.swift in Sources */,
 				F0CBAE1A57D047E4C5056887D3AA6164 /* PhotoCropController-dummy.m in Sources */,
-				BDE7C5F9EC1FC4383DC870C131E687BF /* ReplaceMe.swift in Sources */,
+				6330B81B2682729200985276 /* PhotoCropController.swift in Sources */,
+				6330B8192682729200985276 /* ModalPushPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +683,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2D92F7C985472FECC850B580BEE3562 /* PhotoCropController.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -718,6 +751,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6C1A35ABEB41204A4510B79EABAE6D8 /* PhotoCropController.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -739,6 +773,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
