@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PhotoCropController_Example' do
+  pod 'PhotoCropController', :path => '../'
+
+  target 'PhotoCropController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
