@@ -19,7 +19,6 @@ public protocol PhotoCropDelegate: NSObject {
     func cropViewDidCrop(image: UIImage?)
 }
 
-@available(iOS 13.0, *)
 public class PhotoCropController: UIViewController, UIScrollViewDelegate, UIViewControllerTransitioningDelegate {
     
     //MARK: - Properties

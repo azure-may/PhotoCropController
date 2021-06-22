@@ -24,7 +24,6 @@ public class CropView: UIView {
     
     public override func point(inside point: CGPoint, with event: UIEvent?) -> Bool { return false }
     
-    @available(iOS 13.0, *)
     public convenience init(_ style: Style) {
         self.init()
         switch style {

@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A lightweight library providing a basic photo crop controller for use with the new PHPickerViewController.  Provides custom transitions to push to a modal stack. The aspect ratio for the crop view can be modified.'
+  s.description      = <<-DESC
+  'Photo crop controller provides a photo crop controller for use with the new PHPickerViewController, with custom transitions to push to a modally presented stack. It allows the aspect ratio of the crop to be modified'
+                       DESC
 
   s.homepage         = 'https://github.com/azure-may/PhotoCropController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -26,15 +28,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/azure-may/PhotoCropController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.1'
 
-  s.source_files = 'PhotoCropController/Classes/**/*'
+  s.source_files = 'PhotoCropController/Source/**/*'
   
   # s.resource_bundles = {
   #   'PhotoCropController' => ['PhotoCropController/Assets/*.png']
-  # }
+  # }s
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'PhotosUI'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

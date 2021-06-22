@@ -32,7 +32,6 @@ public struct PhotoManager {
         return UIImage(cgImage: croppedImage)
     }
     
-    @available(iOS 13.0, *)
     public static func resize(image: UIImage, to size: CGSize) -> UIImage {
         return UIGraphicsImageRenderer(size: size).image { _ in
             image.draw(in: CGRect(origin: .zero, size: size))
