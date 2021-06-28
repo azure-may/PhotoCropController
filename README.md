@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Current version only supports iPhone and portrait mode.
+
 ## Installation
 
 PhotoCropController is available through [CocoaPods](https://cocoapods.org). To install
