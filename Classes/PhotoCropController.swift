@@ -150,13 +150,15 @@ public class PhotoCropController: UIViewController, UIScrollViewDelegate, UIView
         else { return }
         dismissModally = true
         delegate?.cropViewDidCrop(image: croppedImage)
-        presentingViewController?.presentingViewController?.dismiss(animated: true)
+        if let nav = navigationController { nav.popViewController(animated: true) }
+        else { presentingViewController?.dismiss(animated: true) }
     }
     
     @objc
     func dismissController() {
         dismissModally = false
-        presentingViewController?.dismiss(animated: true)
+        if let nav = navigationController { nav.popViewController(animated: true) }
+        else { presentingViewController?.dismiss(animated: true) }
     }
     
     //MARK: - Transition Delegate
