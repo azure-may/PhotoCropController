@@ -24,13 +24,14 @@ public class PopTransition: NSObject, UIViewControllerAnimatedTransitioning {
     }
     
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-        guard let fromController = transitionContext.viewController(forKey: .from)
-        else { return}
-        UIView.animate(withDuration: duration, animations: {
-            fromController.view.frame.origin.x = fromController.view.frame.width
+        let containerView = transitionContext.containerView
+        guard let fromView = transitionContext.view(forKey: .from) else { return }
+        containerView.addSubview(fromView)
+        UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: {
+            fromView.frame.origin.x = fromView.frame.width
         }, completion: { _ in
+            fromView.removeFromSuperview()
             transitionContext.completeTransition(true)
-            fromController.view.removeFromSuperview()
         })
     }
 }

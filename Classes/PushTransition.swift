@@ -24,13 +24,15 @@ public class PushTransition: NSObject, UIViewControllerAnimatedTransitioning {
     }
     
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-        guard let toController = transitionContext.viewController(forKey: .to),
-            let fromController = transitionContext.viewController(forKey: .from)
-        else { return}
-        toController.view.frame.origin.x = fromController.view.frame.width
-        transitionContext.containerView.addSubview(toController.view)
-        UIView.animate(withDuration: duration, animations: {
-            toController.view.frame.origin.x = 0
+        let containerView = transitionContext.containerView
+        guard let toView = transitionContext.view(forKey: .to),
+              let toController = transitionContext.viewController(forKey: .to)
+        else { return }
+        toView.frame = transitionContext.finalFrame(for: toController)
+        toView.frame.origin.x = toView.frame.width
+        containerView.addSubview(toView)
+        UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: {
+            toView.frame.origin.x = 0
         }, completion: { _ in
             transitionContext.completeTransition(true)
         })

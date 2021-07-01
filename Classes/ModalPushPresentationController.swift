@@ -21,10 +21,9 @@ public class ModalPushPresentationController: UIPresentationController {
     
     public override func containerViewWillLayoutSubviews() {
         super.containerViewWillLayoutSubviews()
-        presentedView?.frame.origin.y = offset
-        presentedView?.frame.size.height -= offset
-        presentedView?.layer.cornerRadius = 10
-        presentedView?.clipsToBounds = true
+        containerView?.frame.origin.y = offset
+        containerView?.frame.size.height -= offset
+        containerView?.layer.cornerRadius = 10
+        containerView?.clipsToBounds = true
     }
 }
-

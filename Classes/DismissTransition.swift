@@ -18,28 +18,31 @@ import PhotosUI
 
 public class DismissTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
-    public var duration = 0.5
+    public var duration = 0.3
     
     public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return duration
     }
     
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+        let container = transitionContext.containerView
         guard let toController = transitionContext.viewController(forKey: .to),
-            let fromController = transitionContext.viewController(forKey: .from)
+              let fromView = transitionContext.view(forKey: .from),
+              let snapshot = fromView.snapshotView(afterScreenUpdates: true)
         else { return}
-        var picker: UIViewController? = nil
+        snapshot.frame = fromView.frame
+        container.addSubview(snapshot)
         if #available(iOS 14, *), toController is PHPickerViewController {
-            picker = toController
+            (toController.view.superview ?? toController.view)?.isHidden = true
         } else if toController is UIImagePickerController {
-            picker = toController
+            (toController.view.superview ?? toController.view)?.isHidden = true
         }
-        UIView.animate(withDuration: duration, animations: {
-            picker?.view.superview?.frame.origin.y = fromController.view.frame.height
-            fromController.view.frame.origin.y = fromController.view.frame.height
+        fromView.isHidden = true
+        UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: {
+            snapshot.frame.origin.y = snapshot.frame.height
         }, completion: { _ in
+            snapshot.removeFromSuperview()
             transitionContext.completeTransition(true)
-            fromController.view.removeFromSuperview()
         })
     }
 }

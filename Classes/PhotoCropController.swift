@@ -84,7 +84,7 @@ public class PhotoCropController: UIViewController, UIScrollViewDelegate, UIView
         imageView.contentMode = .scaleAspectFit
         scrollView.backgroundColor = .clear
         scrollView.addSubview(imageView)
-        view.backgroundColor = .black
+        view.backgroundColor = .white
         view.addSubview(scrollView)
         view.addSubview(toolbar)
         view.insertSubview(topBlurView, aboveSubview: scrollView)
@@ -150,15 +150,17 @@ public class PhotoCropController: UIViewController, UIScrollViewDelegate, UIView
         else { return }
         dismissModally = true
         delegate?.cropViewDidCrop(image: croppedImage)
-        if let nav = navigationController { nav.popViewController(animated: true) }
-        else { presentingViewController?.dismiss(animated: true) }
+        if let nav = navigationController, !(nav is UIImagePickerController) {
+            nav.popViewController(animated: true)
+        } else { presentingViewController?.dismiss(animated: true) }
     }
     
     @objc
     func dismissController() {
         dismissModally = false
-        if let nav = navigationController { nav.popViewController(animated: true) }
-        else { presentingViewController?.dismiss(animated: true) }
+        if let nav = navigationController, !(nav is UIImagePickerController) {
+            nav.popViewController(animated: true)
+        } else { presentingViewController?.dismiss(animated: true) }
     }
     
     //MARK: - Transition Delegate
